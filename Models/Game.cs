@@ -21,7 +21,7 @@ namespace CodeFirst_1.Models
         [Column("GamePlatform")]
         public string Platform  { get; set; }
 
-        [Column("GameRating", TypeName ="decimal(0,10)")]
+        [Column("GameRating", TypeName ="decimal(3,1)")] // Used decimal(3,1) to store ratings between 0 and 10 with 1 decimal place.
         public decimal Rating { get; set; }
     }
 }
