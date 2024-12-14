@@ -10,7 +10,7 @@ Microsoft.EntityFrameworkCore.SqlServer
 Microsoft.EntityFrameworkCore.Tools
 
 
-/////////////////////////////////**\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+***********************************************************
 
 
 Create DbContext: Define PatikaFirstDbContext to include Movies and Games tables.
